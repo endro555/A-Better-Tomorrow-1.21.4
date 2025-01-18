@@ -1,8 +1,8 @@
 {
-  "block.bettertomorrow.enrichium_ore": "Enrichium Ore",
-  "block.bettertomorrow.deepslate_enrichium_ore": "Deepslate Enrichium Ore",
-  "block.bettertomorrow.enrichium_block": "Enrichium Block",
-  "item.bettertomorrow.enrichium": "Enrichium",
-  "creativetab.bettertomorrow.general": "A Better Tomorrow: General",
-  "creativetab.bettertomorrow.archaeology": "A Better Tomorrow: Archaeology"
+  "block.better_tomorrow.enrichium_ore": "Enrichium Ore",
+  "block.better_tomorrow.deepslate_enrichium_ore": "Deepslate Enrichium Ore",
+  "block.better_tomorrow.enrichium_block": "Enrichium Block",
+  "item.better_tomorrow.enrichium": "Enrichium",
+  "creativetab.better_tomorrow.general": "A Better Tomorrow: General",
+  "creativetab.better_tomorrow.archaeology": "A Better Tomorrow: Archaeology"
 }

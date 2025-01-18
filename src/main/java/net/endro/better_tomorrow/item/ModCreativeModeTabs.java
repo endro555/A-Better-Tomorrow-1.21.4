@@ -19,7 +19,7 @@ public class ModCreativeModeTabs {
 
     public static final Supplier<CreativeModeTab> BISMUTH_ITEMS_TAB = CREATIVE_MODE_TAB.register("bismuth_items_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.ENRICHIUM.get()))
-                    .title(Component.translatable("creativetab.bettertomorrow.general"))
+                    .title(Component.translatable("creativetab.better_tomorrow.general"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.ENRICHIUM);
                         output.accept(ModBlocks.ENRICHIUM_BLOCK);
@@ -30,7 +30,7 @@ public class ModCreativeModeTabs {
     public static final Supplier<CreativeModeTab> BISMUTH_BLOCK_TAB = CREATIVE_MODE_TAB.register("bismuth_blocks_tab",
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModBlocks.ENRICHIUM_BLOCK))
                     .withTabsBefore(ResourceLocation.fromNamespaceAndPath(BetterTomorrow.MOD_ID, "bismuth_items_tab"))
-                    .title(Component.translatable("creativetab.bettertomorrow.archaeology"))
+                    .title(Component.translatable("creativetab.better_tomorrow.archaeology"))
                     .displayItems((itemDisplayParameters, output) -> {
                         output.accept(ModItems.ENRICHIUM_SCALPEL);
                         output.accept(Blocks.HEAVY_CORE);

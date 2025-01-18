@@ -1,5 +1,7 @@
 package net.endro.better_tomorrow;
 
+import net.endro.better_tomorrow.block.ModBlocks;
+import net.endro.better_tomorrow.item.ModCreativeModeTabs;
 import net.endro.better_tomorrow.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import org.slf4j.Logger;
@@ -38,6 +40,8 @@ public class BetterTomorrow {
         NeoForge.EVENT_BUS.register(this);
 
         ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
+        ModCreativeModeTabs.register(modEventBus);
 
         // Register the item to a creative tab
         modEventBus.addListener(this::addCreative);
